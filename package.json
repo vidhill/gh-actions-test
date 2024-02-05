@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "lint": "echo 'Linting'",
-    "build": "tsc && vite build",
+    "build": "echo $VITE_HELLO_WORLD && tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
